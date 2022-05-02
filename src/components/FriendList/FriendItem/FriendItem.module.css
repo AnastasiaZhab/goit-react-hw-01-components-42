@@ -1,0 +1,24 @@
+.item {
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(94, 166, 175); */
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 4px 6px rgb(192, 109, 231, 0.4),
+        10px 8px 10px rgb(53, 163, 197, 0.4);
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.avatar {
+    margin-left: 20px;
+}
